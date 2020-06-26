@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
     if value < minimum || minimum == ""
       minimum = value
       answer = key
+    end
   end
   answer
 end
